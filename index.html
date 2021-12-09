@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniprojekt 3 - Gallery</title>
+    <script src=js/anime.min.js defer></script>
+    <script src=js/script.js defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <section>
+    <img src="img/loggo.png">
+    <p>Create your own gallery or moodboard</p>
+  </section>
+
+    <input id="text" type="text" placeholder="Keyword">
+    
+    <label for="size"></label>
+    <select id="size" name="size">
+      <option value="m">Small    </option>
+      <option value="z">Medium   </option>
+      <option value="b">Large    </option>
+    </select>
+
+    <input id="nr" type="number">
+
+    <button>Search</button>
+    <button id="reset">Reset</button>
+
+    <section class="message">
+      <h3 id="message"></h3>
+    </section>
+    <button onclick="show(-1)">&lt;</button>
+    <button onclick="show(+1)">&gt;</button>
+    <div> <ul></ul> </div>
+    
+    
+
+</body>
+</html>

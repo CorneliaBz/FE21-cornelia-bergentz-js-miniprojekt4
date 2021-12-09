@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    background: rgb(122,134,157);
+    background: radial-gradient(circle, rgba(122,134,157,1) 0%, rgba(34,36,54,1) 100%);
+}
+
+#text{
+    text-align: center;
+    height: 28px;
+    border: 2px solid rgb(34,36,54);
+}
+
+#size{
+    text-align: center;
+    width: 10rem;
+    height: 2rem;
+    border: 2px solid rgb(34,36,54);
+}
+
+#nr{
+    width: 2rem;
+    height: 28px;
+    margin-right: 2rem;
+    border: 2px solid rgb(34,36,54);
+}
+
+button {
+    background:rgb(168, 153, 121);
+    color:aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(141, 128, 101);
+}
+
+#reset {
+    background: rgb(34,36,54);
+}
+
+#reset:hover {
+    background: rgb(27, 28, 43);
+}
+
+section{
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    padding: 2rem 5rem;
+    width: 60rem;
+    margin: 3rem auto 0;
+}
+
+p, h3{
+    color: rgb(173, 188, 216)
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+  li {
+    display: block;
+    list-style: none;
+}
+  
+  button.prev, button.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #FFF;
+    background-color: #333;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+  button.prev {
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+  button.next {
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
